@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Punto 3</title>
+	<link rel="stylesheet" type="text/css" href="es.css">
+</head>
+<body>
+	<div onmouseout="fuera();" onmouseover="dentro();"  id="div" ></div>
+	<script>
+		function fuera()
+		{
+			document.getElementById("div").innerHTML="El mouse se encuentra fuera de la zona";
+		}
+		function dentro()
+		{
+			document.getElementById("div").innerHTML="El mouse se encuentra dentro de la zona";
+		}
+	</script>
+
+</body>
+</html>
